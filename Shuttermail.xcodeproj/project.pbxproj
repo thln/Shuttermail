@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA5459F61A39EDC60080EB2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5459F51A39EDC60080EB2F /* main.m */; };
+		DA5459F91A39EDC60080EB2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5459F81A39EDC60080EB2F /* AppDelegate.m */; };
+		DA5459FC1A39EDC60080EB2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5459FB1A39EDC60080EB2F /* ViewController.m */; };
+		DA5459FF1A39EDC60080EB2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5459FD1A39EDC60080EB2F /* Main.storyboard */; };
+		DA545A011A39EDC60080EB2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA545A001A39EDC60080EB2F /* Images.xcassets */; };
+		DA545A041A39EDC60080EB2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA545A021A39EDC60080EB2F /* LaunchScreen.xib */; };
+		DA545A101A39EDC60080EB2F /* ShuttermailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA545A0F1A39EDC60080EB2F /* ShuttermailTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA545A0A1A39EDC60080EB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA5459E81A39EDC60080EB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA5459EF1A39EDC60080EB2F;
+			remoteInfo = Shuttermail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA5459F01A39EDC60080EB2F /* Shuttermail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shuttermail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5459F41A39EDC60080EB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5459F51A39EDC60080EB2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA5459F71A39EDC60080EB2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA5459F81A39EDC60080EB2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA5459FA1A39EDC60080EB2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA5459FB1A39EDC60080EB2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA5459FE1A39EDC60080EB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA545A001A39EDC60080EB2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA545A031A39EDC60080EB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DA545A091A39EDC60080EB2F /* ShuttermailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuttermailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA545A0E1A39EDC60080EB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA545A0F1A39EDC60080EB2F /* ShuttermailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuttermailTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA5459ED1A39EDC60080EB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA545A061A39EDC60080EB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA5459E71A39EDC60080EB2F = {
+			isa = PBXGroup;
+			children = (
+				DA5459F21A39EDC60080EB2F /* Shuttermail */,
+				DA545A0C1A39EDC60080EB2F /* ShuttermailTests */,
+				DA5459F11A39EDC60080EB2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA5459F11A39EDC60080EB2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA5459F01A39EDC60080EB2F /* Shuttermail.app */,
+				DA545A091A39EDC60080EB2F /* ShuttermailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA5459F21A39EDC60080EB2F /* Shuttermail */ = {
+			isa = PBXGroup;
+			children = (
+				DA5459F71A39EDC60080EB2F /* AppDelegate.h */,
+				DA5459F81A39EDC60080EB2F /* AppDelegate.m */,
+				DA5459FA1A39EDC60080EB2F /* ViewController.h */,
+				DA5459FB1A39EDC60080EB2F /* ViewController.m */,
+				DA5459FD1A39EDC60080EB2F /* Main.storyboard */,
+				DA545A001A39EDC60080EB2F /* Images.xcassets */,
+				DA545A021A39EDC60080EB2F /* LaunchScreen.xib */,
+				DA5459F31A39EDC60080EB2F /* Supporting Files */,
+			);
+			path = Shuttermail;
+			sourceTree = "<group>";
+		};
+		DA5459F31A39EDC60080EB2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA5459F41A39EDC60080EB2F /* Info.plist */,
+				DA5459F51A39EDC60080EB2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA545A0C1A39EDC60080EB2F /* ShuttermailTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA545A0F1A39EDC60080EB2F /* ShuttermailTests.m */,
+				DA545A0D1A39EDC60080EB2F /* Supporting Files */,
+			);
+			path = ShuttermailTests;
+			sourceTree = "<group>";
+		};
+		DA545A0D1A39EDC60080EB2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA545A0E1A39EDC60080EB2F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA5459EF1A39EDC60080EB2F /* Shuttermail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA545A131A39EDC60080EB2F /* Build configuration list for PBXNativeTarget "Shuttermail" */;
+			buildPhases = (
+				DA5459EC1A39EDC60080EB2F /* Sources */,
+				DA5459ED1A39EDC60080EB2F /* Frameworks */,
+				DA5459EE1A39EDC60080EB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shuttermail;
+			productName = Shuttermail;
+			productReference = DA5459F01A39EDC60080EB2F /* Shuttermail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA545A081A39EDC60080EB2F /* ShuttermailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA545A161A39EDC60080EB2F /* Build configuration list for PBXNativeTarget "ShuttermailTests" */;
+			buildPhases = (
+				DA545A051A39EDC60080EB2F /* Sources */,
+				DA545A061A39EDC60080EB2F /* Frameworks */,
+				DA545A071A39EDC60080EB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA545A0B1A39EDC60080EB2F /* PBXTargetDependency */,
+			);
+			name = ShuttermailTests;
+			productName = ShuttermailTests;
+			productReference = DA545A091A39EDC60080EB2F /* ShuttermailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA5459E81A39EDC60080EB2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tam Henry Le Nguyen";
+				TargetAttributes = {
+					DA5459EF1A39EDC60080EB2F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DA545A081A39EDC60080EB2F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DA5459EF1A39EDC60080EB2F;
+					};
+				};
+			};
+			buildConfigurationList = DA5459EB1A39EDC60080EB2F /* Build configuration list for PBXProject "Shuttermail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA5459E71A39EDC60080EB2F;
+			productRefGroup = DA5459F11A39EDC60080EB2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA5459EF1A39EDC60080EB2F /* Shuttermail */,
+				DA545A081A39EDC60080EB2F /* ShuttermailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA5459EE1A39EDC60080EB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5459FF1A39EDC60080EB2F /* Main.storyboard in Resources */,
+				DA545A041A39EDC60080EB2F /* LaunchScreen.xib in Resources */,
+				DA545A011A39EDC60080EB2F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA545A071A39EDC60080EB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA5459EC1A39EDC60080EB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5459FC1A39EDC60080EB2F /* ViewController.m in Sources */,
+				DA5459F91A39EDC60080EB2F /* AppDelegate.m in Sources */,
+				DA5459F61A39EDC60080EB2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA545A051A39EDC60080EB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA545A101A39EDC60080EB2F /* ShuttermailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA545A0B1A39EDC60080EB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA5459EF1A39EDC60080EB2F /* Shuttermail */;
+			targetProxy = DA545A0A1A39EDC60080EB2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA5459FD1A39EDC60080EB2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA5459FE1A39EDC60080EB2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA545A021A39EDC60080EB2F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA545A031A39EDC60080EB2F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA545A111A39EDC60080EB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA545A121A39EDC60080EB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA545A141A39EDC60080EB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shuttermail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA545A151A39EDC60080EB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shuttermail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA545A171A39EDC60080EB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShuttermailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shuttermail.app/Shuttermail";
+			};
+			name = Debug;
+		};
+		DA545A181A39EDC60080EB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShuttermailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shuttermail.app/Shuttermail";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA5459EB1A39EDC60080EB2F /* Build configuration list for PBXProject "Shuttermail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA545A111A39EDC60080EB2F /* Debug */,
+				DA545A121A39EDC60080EB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA545A131A39EDC60080EB2F /* Build configuration list for PBXNativeTarget "Shuttermail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA545A141A39EDC60080EB2F /* Debug */,
+				DA545A151A39EDC60080EB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA545A161A39EDC60080EB2F /* Build configuration list for PBXNativeTarget "ShuttermailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA545A171A39EDC60080EB2F /* Debug */,
+				DA545A181A39EDC60080EB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA5459E81A39EDC60080EB2F /* Project object */;
+}

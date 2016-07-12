@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		DA5459F61A39EDC60080EB2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5459F51A39EDC60080EB2F /* main.m */; };
-		DA5459F91A39EDC60080EB2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5459F81A39EDC60080EB2F /* AppDelegate.m */; };
-		DA5459FC1A39EDC60080EB2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5459FB1A39EDC60080EB2F /* ViewController.m */; };
+		DA5459F91A39EDC60080EB2F /* TLNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5459F81A39EDC60080EB2F /* TLNAppDelegate.m */; };
+		DA5459FC1A39EDC60080EB2F /* TLNCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5459FB1A39EDC60080EB2F /* TLNCameraViewController.m */; };
 		DA5459FF1A39EDC60080EB2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5459FD1A39EDC60080EB2F /* Main.storyboard */; };
 		DA545A011A39EDC60080EB2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA545A001A39EDC60080EB2F /* Images.xcassets */; };
 		DA545A041A39EDC60080EB2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA545A021A39EDC60080EB2F /* LaunchScreen.xib */; };
 		DA545A101A39EDC60080EB2F /* ShuttermailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA545A0F1A39EDC60080EB2F /* ShuttermailTests.m */; };
+		DAA875A81A3A9A14003617C3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA875A61A3A9A14003617C3 /* icon.png */; };
+		DAA875A91A3A9A14003617C3 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA875A71A3A9A14003617C3 /* icon@2x.png */; };
+		DAA875B41A3AB7DD003617C3 /* CameraIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA875B31A3AB7DD003617C3 /* CameraIcon.png */; };
+		DAA875BA1A3B03DA003617C3 /* TLNShuttermailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA875B91A3B03DA003617C3 /* TLNShuttermailModel.m */; };
+		DAA875BC1A3B0E10003617C3 /* ShipLibResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAA875BB1A3B0E10003617C3 /* ShipLibResources.bundle */; };
+		DAA875BE1A3B0E16003617C3 /* ShipLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA875BD1A3B0E16003617C3 /* ShipLib.framework */; };
+		DAA875C01A3B0E32003617C3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA875BF1A3B0E32003617C3 /* AddressBook.framework */; };
+		DAA875C21A3B0E37003617C3 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA875C11A3B0E37003617C3 /* AddressBookUI.framework */; };
+		DAA875C41A3B0E41003617C3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA875C31A3B0E41003617C3 /* SystemConfiguration.framework */; };
+		DAA875CD1A3B30E3003617C3 /* TLNDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA875CC1A3B30E3003617C3 /* TLNDetailViewController.m */; };
+		DAA875D11A3B3DFF003617C3 /* Los_Angeles.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA875D01A3B3DFF003617C3 /* Los_Angeles.png */; };
+		DAA875D41A3B4BED003617C3 /* TLNDeliveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA875D31A3B4BED003617C3 /* TLNDeliveryViewController.m */; };
+		DAA875D61A3B7383003617C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA875D51A3B7383003617C3 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +43,32 @@
 		DA5459F01A39EDC60080EB2F /* Shuttermail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shuttermail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5459F41A39EDC60080EB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA5459F51A39EDC60080EB2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA5459F71A39EDC60080EB2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DA5459F81A39EDC60080EB2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DA5459FA1A39EDC60080EB2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DA5459FB1A39EDC60080EB2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA5459F71A39EDC60080EB2F /* TLNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLNAppDelegate.h; sourceTree = "<group>"; };
+		DA5459F81A39EDC60080EB2F /* TLNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLNAppDelegate.m; sourceTree = "<group>"; };
+		DA5459FA1A39EDC60080EB2F /* TLNCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLNCameraViewController.h; sourceTree = "<group>"; };
+		DA5459FB1A39EDC60080EB2F /* TLNCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLNCameraViewController.m; sourceTree = "<group>"; };
 		DA5459FE1A39EDC60080EB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA545A001A39EDC60080EB2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DA545A031A39EDC60080EB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DA545A091A39EDC60080EB2F /* ShuttermailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuttermailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA545A0E1A39EDC60080EB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA545A0F1A39EDC60080EB2F /* ShuttermailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuttermailTests.m; sourceTree = "<group>"; };
+		DAA875A61A3A9A14003617C3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DAA875A71A3A9A14003617C3 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		DAA875B31A3AB7DD003617C3 /* CameraIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraIcon.png; sourceTree = "<group>"; };
+		DAA875B81A3B03BF003617C3 /* TLNShuttermailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLNShuttermailModel.h; sourceTree = "<group>"; };
+		DAA875B91A3B03DA003617C3 /* TLNShuttermailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLNShuttermailModel.m; sourceTree = "<group>"; };
+		DAA875BB1A3B0E10003617C3 /* ShipLibResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShipLibResources.bundle; sourceTree = "<group>"; };
+		DAA875BD1A3B0E16003617C3 /* ShipLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShipLib.framework; path = Shuttermail/ShipLib.framework; sourceTree = "<group>"; };
+		DAA875BF1A3B0E32003617C3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		DAA875C11A3B0E37003617C3 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		DAA875C31A3B0E41003617C3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DAA875CC1A3B30E3003617C3 /* TLNDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLNDetailViewController.m; sourceTree = "<group>"; };
+		DAA875CF1A3B3C73003617C3 /* TLNDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLNDetailViewController.h; sourceTree = "<group>"; };
+		DAA875D01A3B3DFF003617C3 /* Los_Angeles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Los_Angeles.png; sourceTree = "<group>"; };
+		DAA875D21A3B4B80003617C3 /* TLNDeliveryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLNDeliveryViewController.h; sourceTree = "<group>"; };
+		DAA875D31A3B4BED003617C3 /* TLNDeliveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLNDeliveryViewController.m; sourceTree = "<group>"; };
+		DAA875D51A3B7383003617C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +76,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA875D61A3B7383003617C3 /* QuartzCore.framework in Frameworks */,
+				DAA875C41A3B0E41003617C3 /* SystemConfiguration.framework in Frameworks */,
+				DAA875C21A3B0E37003617C3 /* AddressBookUI.framework in Frameworks */,
+				DAA875C01A3B0E32003617C3 /* AddressBook.framework in Frameworks */,
+				DAA875BE1A3B0E16003617C3 /* ShipLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				DA5459F21A39EDC60080EB2F /* Shuttermail */,
+				DAA875C51A3B0E4A003617C3 /* Frameworks */,
 				DA545A0C1A39EDC60080EB2F /* ShuttermailTests */,
 				DA5459F11A39EDC60080EB2F /* Products */,
 			);
@@ -81,11 +116,13 @@
 		DA5459F21A39EDC60080EB2F /* Shuttermail */ = {
 			isa = PBXGroup;
 			children = (
-				DA5459F71A39EDC60080EB2F /* AppDelegate.h */,
-				DA5459F81A39EDC60080EB2F /* AppDelegate.m */,
-				DA5459FA1A39EDC60080EB2F /* ViewController.h */,
-				DA5459FB1A39EDC60080EB2F /* ViewController.m */,
-				DA5459FD1A39EDC60080EB2F /* Main.storyboard */,
+				DAA875BB1A3B0E10003617C3 /* ShipLibResources.bundle */,
+				DAA875AA1A3A9CA7003617C3 /* Model */,
+				DAA875AB1A3A9CAC003617C3 /* View */,
+				DAA875AC1A3A9CB0003617C3 /* Controller */,
+				DAA875A51A3A99E3003617C3 /* Resources */,
+				DA5459F71A39EDC60080EB2F /* TLNAppDelegate.h */,
+				DA5459F81A39EDC60080EB2F /* TLNAppDelegate.m */,
 				DA545A001A39EDC60080EB2F /* Images.xcassets */,
 				DA545A021A39EDC60080EB2F /* LaunchScreen.xib */,
 				DA5459F31A39EDC60080EB2F /* Supporting Files */,
@@ -117,6 +154,59 @@
 				DA545A0E1A39EDC60080EB2F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAA875A51A3A99E3003617C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAA875D01A3B3DFF003617C3 /* Los_Angeles.png */,
+				DAA875B31A3AB7DD003617C3 /* CameraIcon.png */,
+				DAA875A61A3A9A14003617C3 /* icon.png */,
+				DAA875A71A3A9A14003617C3 /* icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DAA875AA1A3A9CA7003617C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAA875B81A3B03BF003617C3 /* TLNShuttermailModel.h */,
+				DAA875B91A3B03DA003617C3 /* TLNShuttermailModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DAA875AB1A3A9CAC003617C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA5459FD1A39EDC60080EB2F /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DAA875AC1A3A9CB0003617C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA5459FA1A39EDC60080EB2F /* TLNCameraViewController.h */,
+				DA5459FB1A39EDC60080EB2F /* TLNCameraViewController.m */,
+				DAA875CF1A3B3C73003617C3 /* TLNDetailViewController.h */,
+				DAA875CC1A3B30E3003617C3 /* TLNDetailViewController.m */,
+				DAA875D21A3B4B80003617C3 /* TLNDeliveryViewController.h */,
+				DAA875D31A3B4BED003617C3 /* TLNDeliveryViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DAA875C51A3B0E4A003617C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAA875D51A3B7383003617C3 /* QuartzCore.framework */,
+				DAA875BF1A3B0E32003617C3 /* AddressBook.framework */,
+				DAA875C11A3B0E37003617C3 /* AddressBookUI.framework */,
+				DAA875C31A3B0E41003617C3 /* SystemConfiguration.framework */,
+				DAA875BD1A3B0E16003617C3 /* ShipLib.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,11 +253,13 @@
 		DA5459E81A39EDC60080EB2F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TLN;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Tam Henry Le Nguyen";
 				TargetAttributes = {
 					DA5459EF1A39EDC60080EB2F = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7FX28RKSGV;
 					};
 					DA545A081A39EDC60080EB2F = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -199,9 +291,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA875BC1A3B0E10003617C3 /* ShipLibResources.bundle in Resources */,
+				DAA875B41A3AB7DD003617C3 /* CameraIcon.png in Resources */,
+				DAA875A81A3A9A14003617C3 /* icon.png in Resources */,
 				DA5459FF1A39EDC60080EB2F /* Main.storyboard in Resources */,
 				DA545A041A39EDC60080EB2F /* LaunchScreen.xib in Resources */,
 				DA545A011A39EDC60080EB2F /* Images.xcassets in Resources */,
+				DAA875D11A3B3DFF003617C3 /* Los_Angeles.png in Resources */,
+				DAA875A91A3A9A14003617C3 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5459FC1A39EDC60080EB2F /* ViewController.m in Sources */,
-				DA5459F91A39EDC60080EB2F /* AppDelegate.m in Sources */,
+				DA5459FC1A39EDC60080EB2F /* TLNCameraViewController.m in Sources */,
+				DAA875BA1A3B03DA003617C3 /* TLNShuttermailModel.m in Sources */,
+				DA5459F91A39EDC60080EB2F /* TLNAppDelegate.m in Sources */,
+				DAA875D41A3B4BED003617C3 /* TLNDeliveryViewController.m in Sources */,
 				DA5459F61A39EDC60080EB2F /* main.m in Sources */,
+				DAA875CD1A3B30E3003617C3 /* TLNDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +443,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shuttermail",
+				);
 				INFOPLIST_FILE = Shuttermail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,9 +460,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shuttermail",
+				);
 				INFOPLIST_FILE = Shuttermail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -412,6 +526,7 @@
 				DA545A151A39EDC60080EB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA545A161A39EDC60080EB2F /* Build configuration list for PBXNativeTarget "ShuttermailTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +535,7 @@
 				DA545A181A39EDC60080EB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
